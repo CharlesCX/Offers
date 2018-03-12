@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_current_value_size">12sp</dimen>
+    <dimen name="item_name_size">11sp</dimen>
+    <dimen name="grid_item_favorite_width">24dp</dimen>
+    <dimen name="grid_item_favorite_height">24dp</dimen>
+    <dimen name="grid_item_image_padding">6dp</dimen>
+    <dimen name="grid_item_paddingHorizontal">4dp</dimen>
+    <dimen name="grid_item_paddingTop">24dp</dimen>
+    <dimen name="details_name_size">12sp</dimen>
+    <dimen name="details_cash_back_value_size">18sp</dimen>
+    <dimen name="details_description_size">12sp</dimen>
+    <dimen name="details_term_size">12sp</dimen>
+    <dimen name="details_term_paddingHorizontal">8dp</dimen>
+    <dimen name="details_image_padding">8dp</dimen>
+    <dimen name="details_image_height">200dp</dimen>
+    <dimen name="details_favorite_size">24dp</dimen>
+    <dimen name="details_padding">16dp</dimen>
+    <dimen name="main_paddingHorizontal">8dp</dimen>
+</resources>

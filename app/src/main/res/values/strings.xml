@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Offers</string>
+    <string name="main_screen_title">Offers</string>
+    <string name="detail_screen_favorite_button_label">+</string>
+</resources>

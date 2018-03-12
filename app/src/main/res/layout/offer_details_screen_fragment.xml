@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/details_image"
+            android:layout_width="match_parent"
+            android:background="@color/athens_gray"
+            android:padding="@dimen/details_image_padding"
+            android:layout_height="@dimen/details_image_height" />
+
+        <ImageView
+            android:id="@+id/details_favorite"
+            android:layout_width="@dimen/details_favorite_size"
+            android:layout_height="@dimen/details_favorite_size"
+            android:layout_gravity="end"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/details_padding">
+
+        <TextView
+            android:id="@+id/details_cash_back_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textSize="@dimen/details_cash_back_value_size"
+            android:textColor="@color/offer_amount_text_color"/>
+
+        <TextView
+            android:id="@+id/details_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/offer_amount_text_color"
+            android:textSize="@dimen/details_name_size"/>
+
+        <TextView
+            android:id="@+id/details_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/offer_amount_text_color"
+            android:textSize="@dimen/details_description_size"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/details_favorite_button"
+        android:text="@string/detail_screen_favorite_button_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/details_term"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/offer_amount_text_color"
+        android:textSize="@dimen/details_term_size"
+        android:paddingHorizontal="@dimen/details_term_paddingHorizontal"/>
+
+</LinearLayout>
